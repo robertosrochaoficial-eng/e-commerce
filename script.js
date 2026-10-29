@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
             categoria: "burgers",
             preco: 34.9,
             imagem:
-                "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=600&auto=format&fit=crop",
+                "https://images.unsplash.com/photo-1561758033-d89a9ad46330?w=600&auto=format&fit=crop",
             descricao: "Burger artesanal, cheddar, bacon crocante e molho barbecue.",
         },
         {

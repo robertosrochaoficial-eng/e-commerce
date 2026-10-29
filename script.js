@@ -31,93 +31,93 @@ document.addEventListener("DOMContentLoaded", () => {
     const produtos = [
         {
             id: 1,
-            nome: "iPhone 15 Pro",
-            categoria: "smartphones",
-            preco: 7999,
+            nome: "Smash Clássico",
+            categoria: "burgers",
+            preco: 29.9,
             imagem:
-                "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400",
-            descricao: "Smartphone Apple com câmera avançada",
+                "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop",
+            descricao: "Pão brioche, smash burger, queijo cheddar, alface e molho da casa.",
         },
         {
             id: 2,
-            nome: "MacBook Air M2",
-            categoria: "laptops",
-            preco: 8999,
+            nome: "Bacon BBQ",
+            categoria: "burgers",
+            preco: 34.9,
             imagem:
-                "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=400",
-            descricao: "Notebook Apple ultrafino e potente",
+                "https://images.unsplash.com/photo-1553979459-d2229ba7433a?w=600&auto=format&fit=crop",
+            descricao: "Burger artesanal, cheddar, bacon crocante e molho barbecue.",
         },
         {
             id: 3,
-            nome: "AirPods Pro",
-            categoria: "headphones",
-            preco: 1899,
+            nome: "Duplo Cheddar",
+            categoria: "burgers",
+            preco: 38.9,
             imagem:
-                "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?w=400",
-            descricao: "Fones sem fio com cancelamento de ruído",
+                "https://images.unsplash.com/photo-1550547660-d9450f859349?w=600&auto=format&fit=crop",
+            descricao: "Dois burgers, cheddar cremoso, cebola caramelizada e pão brioche.",
         },
         {
             id: 4,
-            nome: "Samsung Galaxy S24",
-            categoria: "smartphones",
-            preco: 5499,
+            nome: "Frango Crocante",
+            categoria: "burgers",
+            preco: 31.9,
             imagem:
-                "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400",
-            descricao: "Smartphone Samsung com tela AMOLED",
+                "https://images.unsplash.com/photo-1606755962773-d324e0a13086?w=600&auto=format&fit=crop",
+            descricao: "Frango empanado crocante, queijo, alface e maionese temperada.",
         },
         {
             id: 5,
-            nome: "Apple Watch Series 9",
-            categoria: "smartwatch",
-            preco: 3299,
+            nome: "Combo Brasa",
+            categoria: "combos",
+            preco: 42.9,
             imagem:
-                "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=400",
-            descricao: "Relógio inteligente com monitoramento",
+                "https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=600&auto=format&fit=crop",
+            descricao: "Smash Clássico acompanhado de batata frita e refrigerante lata.",
         },
         {
             id: 6,
-            nome: "Magic Keyboard",
-            categoria: "accessories",
-            preco: 499,
+            nome: "Combo Duplo",
+            categoria: "combos",
+            preco: 54.9,
             imagem:
-                "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400",
-            descricao: "Teclado mecânico RGB para gamers",
+                "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600&auto=format&fit=crop",
+            descricao: "Duplo Cheddar, batata frita crocante e refrigerante lata.",
         },
         {
             id: 7,
-            nome: "Sony WH-1000XM5",
-            categoria: "headphones",
-            preco: 2499,
+            nome: "Batata Frita",
+            categoria: "sides",
+            preco: 14.9,
             imagem:
-                "https://images.unsplash.com/photo-1618366712010-f4ae9c647dcb?w=400",
-            descricao: "Fone com cancelamento de ruído",
+                "https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=600&auto=format&fit=crop",
+            descricao: "Porção de batatas fritas douradas e crocantes.",
         },
         {
             id: 8,
-            nome: "Dell XPS 13",
-            categoria: "laptops",
-            preco: 7999,
+            nome: "Onion Rings",
+            categoria: "sides",
+            preco: 16.9,
             imagem:
-                "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=400",
-            descricao: "Notebook Windows premium",
+                "https://images.unsplash.com/photo-1639024471283-03518883512d?w=600&auto=format&fit=crop",
+            descricao: "Anéis de cebola empanados, servidos com molho especial.",
         },
         {
             id: 9,
-            nome: "Capa de Silicone iPhone",
-            categoria: "accessories",
-            preco: 299,
+            nome: "Refrigerante Lata",
+            categoria: "drinks",
+            preco: 7,
             imagem:
-                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MPU63?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1661472856272",
-            descricao: "Proteção e estilo para seu iPhone",
+                "https://images.unsplash.com/photo-1629203851122-3726ecdf080e?w=600&auto=format&fit=crop",
+            descricao: "Refrigerante gelado em lata. Consulte os sabores disponíveis.",
         },
         {
             id: 10,
-            nome: "Carregador MagSafe",
-            categoria: "accessories",
-            preco: 450,
+            nome: "Brownie com Sorvete",
+            categoria: "desserts",
+            preco: 18.9,
             imagem:
-                "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/MHXH3?wid=572&hei=572&fmt=jpeg&qlt=95&.v=1661269784338",
-            descricao: "Carregamento sem fio rápido e fácil",
+                "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&auto=format&fit=crop",
+            descricao: "Brownie de chocolate servido com uma bola de sorvete.",
         },
     ];
     const validCoupons = [{ code: "DESCONTO10", type: "percentage", value: 10 }];
@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (produtosFiltrados.length === 0) {
             container.innerHTML = `
                         <div style="grid-column: 1 / -1; text-align: center; padding: 3rem; color: #999;">
-                            <i class="fa-solid fa-box-open" style="font-size: 3rem; margin-bottom: 1rem;"></i>
+                            <i class="fa-solid fa-burger" style="font-size: 3rem; margin-bottom: 1rem;"></i>
                             <p style="font-size: 1.2rem; font-weight: 600;">Nenhum produto encontrado</p>
                         </div>
                     `;
@@ -214,7 +214,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                 <h3 class="product-name">${p.nome}</h3>
                                 <p class="product-description">${p.descricao}</p>
                                 <p class="product-price">${formatarMoeda(p.preco)}</p>
-                                <button class="product-button">Comprar</button>
+                                <button class="product-button">Adicionar</button>
                             </div>
                         </div>
                     `,
@@ -246,7 +246,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const atualizarCarrinho = () => {
         if (carrinho.length === 0) {
-            cartBody.innerHTML = `<div class="cart-empty"><i class="fa-solid fa-box-open"></i><p>Seu carrinho está vazio.</p></div>`;
+            cartBody.innerHTML = `<div class="cart-empty"><i class="fa-solid fa-burger"></i><p>Seu carrinho está vazio.</p></div>`;
         } else {
             cartBody.innerHTML = carrinho
                 .map(
@@ -361,7 +361,7 @@ document.addEventListener("DOMContentLoaded", () => {
             cupomInfo = `\n*Cupom Aplicado:* ${appliedCoupon.code} (${formatarMoeda(discountAmount)})`;
         }
         const total = subtotal - discountAmount;
-        let mensagem = `*-- NOVO PEDIDO TechStore --*\n\n*Itens:*\n${itensPedido}\n\n*Subtotal:* ${formatarMoeda(subtotal)}${cupomInfo}\n*Total:* ${formatarMoeda(total)}\n\n-------------------------\n\n`;
+        let mensagem = `*-- NOVO PEDIDO BRASA BURGER --*\n\n*Itens:*\n${itensPedido}\n\n*Subtotal:* ${formatarMoeda(subtotal)}${cupomInfo}\n*Total:* ${formatarMoeda(total)}\n\n-------------------------\n\n`;
 
         if (tipoEntrega === "delivery") {
             const nome = document.getElementById("delivery-name").value;

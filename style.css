@@ -7,12 +7,12 @@
         }
 
         :root {
-            --primary-color: #FF6B35;
-            --secondary-color: #2C3E50;
-            --accent-color: #3498DB;
-            --text-color: #2C3E50;
-            --linght-gray: #F8F9FA;
-            --border-color: #E9ECEF;
+            --primary-color: #D94F1D;
+            --secondary-color: #2B1D16;
+            --accent-color: #E7A43B;
+            --text-color: #35251E;
+            --linght-gray: #FFF8F0;
+            --border-color: #F0E2D4;
             --success-color: #2ecc71;
             --error-color: #e74c3c;
         }
@@ -123,7 +123,7 @@
         }
 
         .hero-section {
-            background: linear-gradient(160deg, #FF4111 0%, #2d73bd 55%);
+            background: linear-gradient(135deg, #2B1D16 0%, #8E3218 58%, #D94F1D 100%);
             color: #fff;
             text-align: center;
             padding: 2rem 1rem;
@@ -205,7 +205,6 @@
         .product-button {
             width: 100%;
             background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-            ;
             color: #fff;
             border: none;
             padding: 0.7rem;
@@ -217,7 +216,7 @@
         }
 
         .product-button:hover {
-            background-color: #3aa9f3;
+            background-color: #B93E18;
         }
 
         /* --- ESTILOS DO CARRINHO --- */
@@ -491,7 +490,7 @@
         .form-group select:focus,
         .form-group textarea:focus {
             border-color: var(--accent-color);
-            box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+            box-shadow: 0 0 0 3px rgba(217, 79, 29, 0.2);
             outline: none;
         }
 
@@ -542,7 +541,7 @@
 
         .payment-option.selected {
             border-color: var(--primary-color);
-            background-color: #fff5f0;
+            background-color: #FFF1E8;
         }
 
         #troco-container {
@@ -615,7 +614,7 @@
         }
 
         #apply-coupon-btn:hover {
-            background-color: #3e5771;
+            background-color: #432D23;
         }
 
         .coupon-feedback {
@@ -645,7 +644,6 @@
             font-weight: bold;
             color: #fff;
             background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
-            ;
             border: none;
             border-radius: 0.5rem;
             cursor: pointer;
@@ -653,7 +651,7 @@
         }
 
         .finish-order-btn:hover:not(:disabled) {
-            background-color: #27ae60;
+            background-color: #B93E18;
         }
 
         .finish-order-btn:disabled {
